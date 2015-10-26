@@ -34,4 +34,4 @@ I'll be using it as a testbed for writing a practical application with Fluxlet,
 present demos, and record my musings.
 
 First of all I'll be writing a series about bloglet itself...
-[Bloglet Part 1](/pages/bloglet-1.md)
+[Bloglet Part 1](pages/bloglet-1.md)

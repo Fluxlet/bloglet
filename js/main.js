@@ -79,7 +79,7 @@ const converted = html => update('content.html', html)
 
 const home = {
   when: ({place}) => !place,
-  then: update('place', '/pages/home.md')
+  then: update('place', 'pages/home.md')
 }
 
 const showdownConverter = new showdown.Converter()

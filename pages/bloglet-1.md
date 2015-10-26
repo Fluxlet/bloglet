@@ -43,4 +43,4 @@ As I'm not a web designer, I'm starting with the blog template from bootstrap,
 although I expect it to evolve into something more unique eventually.
 
 ---
-[Next: Some HTML and CSS](/pages/bloglet-2.md)
+[Next: Some HTML and CSS](pages/bloglet-2.md)

@@ -51,4 +51,4 @@ Ok, I know it's daft and I could just have included the CSS directly in head,
 but I wanted to play with something different - that's the whole point of this.
 
 ---
-[Next: Imports and Setup](/pages/bloglet-3.md)
+[Next: Imports and Setup](pages/bloglet-3.md)
