@@ -1,0 +1,5 @@
+jspm_packages/github
+jspm_packages/npm
+jspm_packages/.dependencies.json
+jspm_packages/.loaderversions
+node_modules
