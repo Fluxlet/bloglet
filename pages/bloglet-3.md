@@ -49,4 +49,4 @@ function setup() {
 ```
 
 ---
-Next: Routing
+[Next: Routing](pages/bloglet-4.md)
