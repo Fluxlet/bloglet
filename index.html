@@ -16,52 +16,68 @@
       })
     </script>
 
-    <style>.bloglet { opacity: 0 }</style>
+    <style>
+      .bloglet-loaded { opacity: 0 }
+      .bloglet-loading {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        padding-top: 1em;
+        font-size: 60px;
+        font-family: monospace;
+        font-weight: bold;
+        text-align: center;
+      }
+    </style>
   </head>
+
   <body class="bloglet">
+    <div class="bloglet-loading">The Bloglet is loading...</div>
 
-    <div class="blog-masthead">
+    <div class="bloglet-loaded">
+      <div class="blog-masthead">
+        <div class="container">
+          <nav class="blog-nav">
+            <a class="blog-nav-item active" href="pages/home.md">Home</a>
+            <a class="blog-nav-item" href="pages/test.md">Test</a>
+            <a class="blog-nav-item" href="pages/todo.md">Todo</a>
+            <a class="blog-nav-item" href="https://github.com/fluxlet/bloglet" target="_blank">GitHub</a>
+          </nav>
+        </div>
+      </div>
+
       <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="pages/home.md">Home</a>
-          <a class="blog-nav-item" href="pages/test.md">Test</a>
-          <a class="blog-nav-item" href="pages/todo.md">Todo</a>
-          <a class="blog-nav-item" href="https://github.com/fluxlet/bloglet" target="_blank">GitHub</a>
-        </nav>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="blog-header">
-        <h1 class="blog-title">The Bloglet</h1>
-        <p class="lead blog-description">A blog about fluxlet using fluxlet.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-sm-8 blog-main">
-          <div class="blog-post" id="main"></div>
+        <div class="blog-header">
+          <h1 class="blog-title">The Bloglet</h1>
+          <p class="lead blog-description">A blog about fluxlet using fluxlet.</p>
         </div>
 
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>Blah blah blah fluxlet blah blah. Blah jspm blah system.js blah. Blah es6 blah blah modules blah blah bloglet.</p>
+        <div class="row">
+          <div class="col-sm-8 blog-main">
+            <div class="blog-post" id="main"></div>
           </div>
-          <div class="sidebar-module">
-            <h4>Bloglet Articles</h4>
-            <ol class="list-unstyled">
-              <li><a href="pages/bloglet-1.md">Part 1 - Introduction</a></li>
-              <li><a href="pages/bloglet-2.md">Part 2 - HTML and CSS</a></li>
-              <li><a href="pages/bloglet-3.md">Part 3 - Imports</a></li>
-              <li><a href="pages/bloglet-4.md">Part 4 - Routing</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="https://raw.githubusercontent.com/Fluxlet/fluxlet/master/README.md">Fluxlet README</a></li>
-              <li><a href="https://github.com/fluxlet" target="_blank">Fluxlet on GitHub</a></li>
-            </ol>
+
+          <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+              <h4>About</h4>
+              <p>Blah blah blah fluxlet blah blah. Blah jspm blah system.js blah. Blah es6 blah blah modules blah blah bloglet.</p>
+            </div>
+            <div class="sidebar-module">
+              <h4>Bloglet Articles</h4>
+              <ol class="list-unstyled">
+                <li><a href="pages/bloglet-1.md">Part 1 - Introduction</a></li>
+                <li><a href="pages/bloglet-2.md">Part 2 - HTML and CSS</a></li>
+                <li><a href="pages/bloglet-3.md">Part 3 - Imports</a></li>
+                <li><a href="pages/bloglet-4.md">Part 4 - Routing</a></li>
+              </ol>
+            </div>
+            <div class="sidebar-module">
+              <h4>Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="https://raw.githubusercontent.com/Fluxlet/fluxlet/master/README.md">Fluxlet README</a></li>
+                <li><a href="https://github.com/fluxlet" target="_blank">Fluxlet on GitHub</a></li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>

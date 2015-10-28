@@ -5,10 +5,16 @@
 body.bloglet {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #555;
+}
+
+.bloglet-loaded {
   opacity: 1;
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
+}
+.bloglet-loading {
+  display: none;
 }
 
 .bloglet h1, .bloglet .h1,
@@ -17,7 +23,6 @@ body.bloglet {
 .bloglet h4, .bloglet .h4,
 .bloglet h5, .bloglet .h5,
 .bloglet h6, .bloglet .h6 {
-  margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #333;
