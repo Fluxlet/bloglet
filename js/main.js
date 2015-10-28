@@ -51,7 +51,7 @@ const initialState = {
 
 function bindReady(dispatch) {
   $(document)
-    .on('click', "[href]:not([target])", event => {
+    .on('click', "[href]:not([target]):not(.gitter-open-chat-button)", event => {
       event.preventDefault()
 
       const $target = $(event.target)
@@ -61,6 +61,10 @@ function bindReady(dispatch) {
       dispatch.route(href)
     })
     .ready(() => {
+      $('.gitter-chat-embed').on('gitter-chat-toggle', event => {
+        $('body').toggleClass('chat-open', event.originalEvent.detail.state)
+      })
+
       dispatch.route(window.location.search.replace(/^\?/,''))
     })
 }

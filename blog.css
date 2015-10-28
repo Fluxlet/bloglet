@@ -39,6 +39,9 @@ body.bloglet {
   }
 }
 
+.bloglet.chat-open .container {
+  margin-left: 10px;
+}
 
 /*
  * Masthead for nav
