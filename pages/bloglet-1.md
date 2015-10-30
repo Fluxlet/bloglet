@@ -1,8 +1,8 @@
-[Mark Gibson](https://github.com/jollytoad) (2015-26-10)
+[Mark Gibson](https://github.com/jollytoad) (2015-10-26)
 
 # Bloglet Part 1
 
-## Wishishes and Plannishing
+## Introduction
 
 So, what do I want...
 

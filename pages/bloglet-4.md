@@ -1,4 +1,4 @@
-[Mark Gibson](https://github.com/jollytoad) (2015-27-10)
+[Mark Gibson](https://github.com/jollytoad) (2015-10-27)
 
 # Bloglet Part 4
 
@@ -50,7 +50,7 @@ function bindReady(dispatch) {
 
 this ignores any href with a target attr, allowing us to visit an external page.
 
-### No place like home (Calculations)
+### Calculations - No place like home
 
 Hang, where do we go if no place is given in the initial URL, well we can have
 a calculation take care of that and provide a default place if its undefined...
@@ -96,4 +96,4 @@ to a new *place* - but the URL doesn't update - that'll be covered later
 with another action and side effect.
 
 ---
-Next: Loading
+[Next: Loading](pages/bloglet-5.md)

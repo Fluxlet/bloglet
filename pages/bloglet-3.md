@@ -1,4 +1,4 @@
-[Mark Gibson](https://github.com/jollytoad) (2015-26-10)
+[Mark Gibson](https://github.com/jollytoad) (2015-10-26)
 
 # Bloglet Part 3
 
@@ -22,6 +22,8 @@ Fluxlet has a fluent API for registration of its initial state, actions,
 calculations and side-effects. See the fluxlet
 [README](https://raw.githubusercontent.com/Fluxlet/fluxlet/master/README.md)
 for an explaination of these.
+
+Eventually our setup will look like this...
 
 ```js
 function setup() {
@@ -47,6 +49,8 @@ function setup() {
     )
 }
 ```
+
+but we'll build up to this gradually in the next few articles.
 
 ---
 [Next: Routing](pages/bloglet-4.md)
