@@ -91,4 +91,4 @@ There we have it, whenever the *place* changes in the state, the new content
 will be loaded into the *state*, ready for processing and rendering.
 
 ---
-Next: Processing
+[Next: Processing & Rendering](pages/bloglet-6.md)

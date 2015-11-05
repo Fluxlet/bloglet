@@ -122,10 +122,12 @@ const renderContent = {
 
     history.pushState({}, title, '?'+place)
 
+    // Highlight the relevant nav bar item
     $(".blog-nav-item")
       .removeClass("active")
       .filter(`[href='${place}']`).addClass("active")
 
+    // Perform syntax highlighting on any code blocks
     window.setTimeout(() => prism.highlightAll(), 0)
 
   }
